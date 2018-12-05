@@ -1,0 +1,89 @@
+#kids{
+    position: relative;
+    height: 700px;
+    width: 100%;
+    bottom: 250px;
+}
+#purp{
+    background-color: #6E3493;
+    position: relative;
+    width: 100%;
+    height: 350px;
+    bottom: 200px;
+}
+#mailtitle{
+position: relative;
+bottom: 525px;
+left: 650px;
+color: white;
+}
+#emailtitle{
+    position: relative;
+    bottom: 445px;
+    left: 45px;
+    color: white;
+}
+#line{
+    position: relative;
+    bottom: 410px;
+    width: 1500px;
+}
+#subscribe{
+    position: relative;
+    bottom: 450px;
+    left: 50px;
+    color: white;
+   font-weight: 1;
+}
+#subscribeback{
+    background-color: #7ABD54;
+    position: relative;
+    bottom: 390px;
+    left: 40px;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+}
+#purpimpact
+{
+    display: block;
+    background-color: #6E3493;
+    position: relative;
+    width: 600px;
+    height: 200px;
+    bottom: 400px;
+    left: 500px;
+}
+#video{
+    position: relative;
+    bottom: 300px;
+    left: 200px;
+}
+#purpother{
+    display: block;
+    background-color: #6E3493;
+    position: relative;
+    width: 600px;
+    height: 200px;
+    bottom: 300px;
+    left: 500px;
+}
+#otherprograms{
+    position: relative;
+    bottom: 200px;
+    width: 100%;
+    height: 350px;
+}
+#end{
+    width: 100%;
+    height: 450px;
+    background-color: #ECE6F1;
+}
+
+.imgs{
+    margin-bottom: 100px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
