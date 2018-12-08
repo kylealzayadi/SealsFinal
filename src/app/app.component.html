@@ -1,34 +1,30 @@
-<!--NavBar-->
-<div>
-  <div>
-<a class="nav-link" routerLink="/homepage">
-  <img id="star" src="../assets/starlogo.png">
-</a>
-</div>
-<div id="navbar"></div>
-<div>
-<a routerLink="/aboutpage">
-  <h1 class="first">
-    About Us
-  </h1>
-</a>
-</div>
-<div>
-<a class="nav-link" routerLink="/aboutpage">
-  <h1 class="second">
-    Contact Us
-  </h1>
-</a>
-</div>
-<div>
-<a class="nav-link" routerLink="/aboutpage">
-  <h1 class="third">
-    Donate
-  </h1>
-</a>
-</div>
-</div>
-<div id="box"></div>
+
+<nav class="navbar navbar-expand-lg">
+  <a class="nav-link-brand" routerLink="/homepage">
+    <img id="star" src="../assets/starlogo.png"/>
+  </a>
+
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Donate</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
 
 <router-outlet></router-outlet>
 
