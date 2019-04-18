@@ -1,59 +1,157 @@
-<div>
+<!-- //first slideshow -->
+<div style="margin-top: -7% ">
   <!-- <img id="kids" src="/src/assets/starkids.png"> -->
-  <ngb-carousel *ngIf="images">
+  <ngb-carousel *ngIf="images" >
       <ng-template ngbSlide>
-        <img  class="imgs" [src]="images[0]" alt="Random first slide">
+        <img  class="imgs" src="../../assets/black background.jpeg" alt="Random first slide">
         <div class="carousel-caption">
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h5 style="text-align:center; margin-top: -10%;"><strong> The Best In Afterschool Enrichment in the Community </strong></h5>
         </div>
       </ng-template>
       <ng-template ngbSlide>
-        <img class="imgs" [src]="images[1]" alt="Random second slide">
+        <img class="imgs" src="../../assets/kids.jpg" alt="Random second slide">
         <div class="carousel-caption">
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
+            <h5 style="text-align:center; margin-top: -10%;"><strong> Only the Best After-School Program Out There </strong></h5>
+          </div>
       </ng-template>
       <ng-template ngbSlide>
-        <img class="imgs" [src]="images[2]" alt="Random third slide">
+        <img class="imgs" src="../../assets/STAR-Eco-Station.jpg" alt="Random third slide">
         <div class="carousel-caption">
-          <h3>Third slide label</h3>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-        </div>
+            <h5 style="text-align:center; margin-top: -10%;"><strong> Only the Best After-School Program Out There </strong></h5>
+          </div>
       </ng-template>
     </ngb-carousel>
 </div>
-<div>
-  <h2 style="text-align:center; position:relative; bottom: 210px;">
-    ​STAR Education is a charitable 501(c)(3) non-profit organization that has been selected the leader <br>in
-    innovative educational programming and community-based cultural enrichment projects for over 30 years.
-    <br> STAR services more than 500 schools in over 60 school districts, reaching over a million students and their
-    families every year.<br> STAR works with students, families, schools and communities to provide exceptional
-    educational and cultural enrichment opportunities.
-  </h2>
+<img id="logo" src="../../assets/starlooooo.png">
+<!-- //rich text -->
+<div class="limits">
+  <div>
+  <h1 style="margin-top:5%; font-weight: 800"> STAR Education is a charitable 501(c)(3) <br> non-profit organization </h1>
 </div>
-<div id="purp"></div>
-<h1 id="mailtitle">
-  Join Our Mailing List!
-</h1>
-<p id="emailtitle"> Email:</p>
-<hr id="line">
-<div id="subscribeback"></div>
-<h2 id="subscribe">
-  Subscribe
-</h2>
-<div id="purpimpact">
-  <h1 style="text-align:center; position:relative; top: 60px; color: white; font-size: 64px;">
-    OUR IMPACT
-  </h1>
-</div>
-<iframe id="video" width="1200" height="500" src="https://www.youtube.com/embed/vLhMvcH1y48">
-</iframe>
-<div id="purpother">
-    <h1 style="text-align:center; position:relative; top: 30px; color: white; font-size: 64px;">
-      OTHER PROGRAMS
-    </h1>
+  <div>
+   <a routerLink="/aboutpage"> <u><h2 id="title1"> About Us</h2> </u></a>
+      <br>
+    <div style="margin: 5.8% auto auto 1%;"id="text1">
+        ​STAR Education is a charitable 501(c)(3) <br> non-profit organization that provides <br> 
+     families, schools and communities with exceptional<br>
+        educational and cultural enrichment opportunities.
+    </div> 
+
   </div>
-  <img id="otherprograms" src="/src/assets/starkids.png">
-  <div id="end"></div>
+  <div>
+     <a routerLink="/contactpage"> <u> <h2 id="title2"> Contact Us</h2> </u></a>
+      <br>
+    <div style="margin: 5% auto auto auto;"id="text2">
+        ​STAR Education is a charitable 501(c)(3) <br> non-profit organization that provides <br> 
+        families, schools and communities with exceptional<br>
+           educational and cultural enrichment opportunities.
+        <!-- ​We love it when the community <br> joins into our movement. <br> 
+     Please contact us at info@starinc.org to learn more<br> about
+        educational and cultural enrichment <br>opportunities. -->
+    </div> 
+  </div>
+  <div>
+      <h2 id="title3"> Donate</h2>
+      <br>
+    <div style="margin: -9% auto auto 67%;" id="text3">
+        ​STAR Education is a charitable 501(c)(3) <br> non-profit organization that provides <br> 
+     families, schools and communities with exceptional<br>
+        educational and cultural enrichment opportunities.
+        <!-- We invite you to join us in creating a <br>brighter future.  <br>
+         Every gift, large or small, symbolizes your  commitmentto the 
+         well-being of our children and our community. -->
+    </div> 
+  </div>
+</div>
+<!-- //mailing list backbox -->
+<div id="purp" style=" position: -webkit-sticky; position:sticky; margin-top: 7%;">
+  <h1 style="padding-top: 3%;"id="mailtitle">
+    Join Our Mailing List!
+  </h1>
+  <form class="w3-container">
+      <p id="pos">
+      <label style="font-size: 16px;">Email:</label>
+      <input class="w3-input" type="text"></p>
+    </form>
+<!-- <hr id="line"> -->
+
+<div class="subscribeback" > 
+  <button class="subscribeback" style="margin: auto auto auto auto;">
+    <h2 style=" text-align: center; font-weight: 1; color: white; font-size: 22px; ">Subscribe</h2> </button>
+ </div>
+</div>
+<!-- //title box -->
+<!-- <h1 style="margin-top:5%; font-weight: 800; text-align: center;"> Our Impact</h1>
+<div id="video_frame">
+  <div>
+<iframe id="video" frameborder="0" width="1000" height="450" src="https://www.youtube.com/embed/vLhMvcH1y48"> </iframe>
+</div>
+</div> -->
+<h1 style="margin-top:5%; font-weight: 800; text-align: center;"> Our Other Programs </h1>
+<!-- //other programs slideshow -->
+<div>
+    <ngb-carousel *ngIf="images" style="height:500px;">
+        <ng-template ngbSlide>
+          <img  class="imgs" src="../../assets/ezgif.com-webp-to-png (1).png" alt="Random first slide">
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <img class="imgs" src="../../assets/starkids.png" alt="Random second slide">
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <img class="imgs" src="../../assets/STAR-Eco-Station.jpg" alt="Random third slide">
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+      </ngb-carousel>
+</div>
+
+<!-- <div style="width:100%; background-color:white; height: 125px;"></div> -->
+<div id="endblock">
+<img id="savethedate" src="../../assets/rockfest.png">
+<h1 id="text_save"> <b>Save the Date!</b> </h1>
+<h2 style="text-align:center; margin-top: 3%;">
+  Join us at our
+    Winter RockFest <br>
+    @ The Fonda Theater <br>
+    6126 Hollywood Blvd 
+    LA,CA 90028<br>
+    9:00am-5:00pm</h2>
+</div>
+<!-- // footer -->
+<div class="container-fluid end" >
+    <div class="row">
+      <div class="col-12 col-md-6" style="margin-top: -5%;">
+        <img id="starlogo" src="../../assets/starlooooo.png">
+        <p style="text-align:center; color:white; font-size:18px;">
+          STAR services more than 500 schools in over 60 school districts, <br>
+          reaching over a million students and their families every year. STAR <br>
+          works with students, families, schools and communities to provide <br>
+          exceptional educational and cultural enrichment opportunities.</p>
+      </div>
+      <div class="col-12 col-md-6" style="margin-top: -5%;">
+        <p style="text-align:center; color:white; font-size:18px; margin: 150px 0px 0px 0px ">
+          Contact:</p>
+        <p style="text-align:center; color:white; font-size:18px;">6101 W Centinela Ave # 380,
+          <br> Culver City, CA 90230 </p>
+        <p style="text-align:center; color:white; font-size:18px;">
+          info@starinc.org</p>
+        <div class="icons">
+          <div>
+            <img src="../../assets/facebook-f-brands.svg">
+          </div>
+          <div> <img src="../../assets/instagram-brands.svg"></div>
+          <div> <img src="../../assets/twitter-brands.svg"></div>
+          <div> <img src="../../assets/youtube-brands.svg"></div>
+  
+        </div>
+      </div>
+    </div>
+    <p id="copyright" style="text-align:center; color:white; font-size:18px;" > © STAR Inc.
+        ALL RIGHTS RESERVED</p>
+  </div>
+
+   

@@ -1,84 +1,60 @@
-#kids{
-    position: relative;
-    height: 700px;
-    width: 100%;
-    bottom: 250px;
+
+#logo{
+width: 10%;
+height: 15%;
+position: absolute;
+bottom: 650px;
+left: 20px;
+z-index: 10;
 }
+
 #purp{
     background-color: #6E3493;
-    position: relative;
     width: 100%;
     height: 350px;
-    bottom: 200px;
+    margin: 100px 0px 100px 0px
 }
 #mailtitle{
-position: relative;
-bottom: 525px;
-left: 650px;
+text-align: center;
 color: white;
+margin: 1px 0px 800px 0px;
 }
 #emailtitle{
-    position: relative;
-    bottom: 445px;
-    left: 45px;
-    color: white;
+    color:  white;
+    margin: -750px 0px 0px 50px;  
+    font-size: 24px;
 }
 #line{
-    position: relative;
-    bottom: 410px;
-    width: 1500px;
+   margin: 0px 0px 500px 0px;
+    width: 1000px;
 }
-#subscribe{
-    position: relative;
-    bottom: 450px;
-    left: 50px;
-    color: white;
-   font-weight: 1;
-}
-#subscribeback{
+
+.subscribeback{
     background-color: #7ABD54;
-    position: relative;
-    bottom: 390px;
-    left: 40px;
     width: 120px;
     height: 50px;
     border-radius: 10px;
+    margin: -615px 0px 0px 1300px;
 }
 #purpimpact
 {
-    display: block;
-    background-color: #6E3493;
-    position: relative;
-    width: 600px;
-    height: 200px;
-    bottom: 400px;
-    left: 500px;
+    background-color: white;
+   margin: auto;
+   width: 45%;
+   height: 200px;
 }
 #video{
-    position: relative;
-    bottom: 300px;
-    left: 200px;
+    margin: 5% auto 0 auto;
+    display: block;
+    padding-top: 5%
 }
 #purpother{
-    display: block;
     background-color: #6E3493;
-    position: relative;
-    width: 600px;
+    margin: auto;
+    width: 45%;
     height: 200px;
-    bottom: 300px;
-    left: 500px;
 }
-#otherprograms{
-    position: relative;
-    bottom: 200px;
-    width: 100%;
-    height: 350px;
-}
-#end{
-    width: 100%;
-    height: 450px;
-    background-color: #ECE6F1;
-}
+
 
 .imgs{
     margin-bottom: 100px;
@@ -86,4 +62,128 @@ color: white;
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+::ng-deep ngb-carousel{
+    margin-top: 100px;
+    height: 800px;
+}
+::ng-deep .carousel-inner{
+    height: 100%;
+}
+
+::ng-deep .carousel-item{
+    height: 100%;
+}
+::ng-deep .carousel-caption{
+    height: 60%;
+}
+h3{
+    color: #6E3493;
+    font-size: 120px;
+}
+.limits{
+    text-align: center;
+    margin: 0px 100px 0px 100px;
+    
+}
+.end{
+    position: relative;
+    background-color: #7ABD54;
+    width: 100%;
+    height: 400px;
+}
+#starlogo{
+    margin: 125px 0px 0px 300px;
+    width: 100px;
+    height: 100px;
+}
+
+.icons{
+    display: flex;
+    padding: 0 225px;
+}
+
+.icons div{
+    text-align: center;
+    flex: 1;
+}
+.icons div img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.icons div{
+    height: 50px;
+}
+
+#copyright{
+    position: absolute;
+    bottom:10px;
+    width:100%;
+}
+/* #inputs{
+    margin: 0px 0px 0px 50px;
+    border: none;
+border-color: transparent;
+} */
+
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid black;
+  }
+
+  #pos{
+     margin-top: -49%;
+  }
+#savethedate{
+    width: 25%;
+    height: 400px;
+    margin: 50px auto auto 150px;
+    float: left;
+}
+#endblock{
+    background-color: white;
+    width: 100%;
+    height: 500px;
+}
+#text_save{
+   text-align: center;
+   padding-top: 7%;
+   
+}
+h5{
+    font-size: 96px;
+}
+#video_frame{
+    background-color: #6E3493;
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
+    margin-top: 5%
+}
+#title1{
+    position: absolute; 
+    margin-top: 3%;
+    margin-left: 10%;
+    font-weight: 800;
+    color: #7ABD54;
+}
+#title2{
+    position: absolute; 
+    left: 650px;
+ margin-top: 1.5%;
+ font-weight: 800;
+ color: #7ABD54;
+}
+#title3{
+    position: absolute ;
+    left: 1075px;
+    margin-top: -10.8%;
+    font-weight: 800;
+    color: #7ABD54;
+}
+#text1{
+    position: absolute;;
 }

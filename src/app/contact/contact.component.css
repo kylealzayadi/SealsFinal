@@ -1,0 +1,51 @@
+#join{
+    background-color: #6E3493;
+    width: 50%;
+    height: 150px;
+    margin: 100px auto auto auto ;
+    
+}
+
+#contactblock{
+    background-color: #6E3493;
+    width: 100%;
+    height: 1000px;
+    margin: 100px auto auto auto ;
+}
+
+.end{
+    position: relative;
+    background-color: #7ABD54;
+    width: 100%;
+    height: 500px;
+}
+#starlogo{
+    margin: 125px 0px 0px 300px;
+    width: 100px;
+    height: 100px;
+}
+
+.icons{
+    display: flex;
+    padding: 0 225px;
+}
+
+.icons div{
+    text-align: center;
+    flex: 1;
+}
+.icons div img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.icons div{
+    height: 50px;
+}
+
+#copyright{
+    position: absolute;
+    bottom:10px;
+    width:100%;
+}

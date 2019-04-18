@@ -1,4 +1,6 @@
-
+a{
+    font-weight: 800;
+}
 
 #star{
     position: relative;
@@ -7,9 +9,12 @@
 }
 
 .nav-link-brand{
-    height: 100px;
+    height: 100%;
+    justify-content: space-between;
+    display: flex;
 }
 .navbar{
+    margin-top: 20px;
     background-color: #6E3493;
     height: 80px;
     width: 100%;
@@ -19,9 +24,12 @@
 
 .nav-link{
     color: white;
+     margin-left: 100px;
+}
+
+.spacin{
+    padding: auto 90px;
 }
 
 
-a {
-    border:0px solid red; display:inline-block; line-height:0;
-}
+
